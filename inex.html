@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Joon's Slide</title>
+
+    <!-- CSS 파일 링크 -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/myStyle.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/unit.css">
+
+    <!-- JS 라이브러리 링크 -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- 애니매이션 라이브러리 -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script> 
+    <script src="js/controller.js"></script>
+
+</head>
+<body>
+       <div class="slide">
+            <!-- <button type="button" class="btn-left"></button>
+            <button type="button" class="btn-right"></button> -->
+           
+            <button type="button" class="prev"><img src="img/left.png" alt="" /></button>
+            <ul>
+                <li>
+                    <img src="img/example-slide-1.jpg" alt="바다">
+                </li>
+                <li>
+                    <img src="img/example-slide-2.jpg" alt="강">
+                </li>
+                <li>
+                    <img src="img/example-slide-3.jpg" alt="하늘">
+                </li>
+                <li>
+                    <img src="img/example-slide-4.jpg" alt="다리">
+                </li>
+            </ul>
+            <button type="button" class="next"><img src="img/right.png" alt="" /></button>
+
+        <!-- index 구현 시 가산점 -->
+      <!--
+        <div class="index">
+          <a href="#" class="index-item index-item-on">1</a>
+          <a href="#" class="index-item">2</a>
+          <a href="#" class="index-item">3</a>
+          <a href="#" class="index-item">4</a>
+       </div>
+       -->
+           
+        <!-- auto rolling 구현 시 재생 / 정지 UI 구현 -->
+      <!--
+           <div class="controller">
+          <button type="button" class="btn-play">재생</button>
+          <button type="button" class="btn-pause">정지</button>
+       </div>
+      -->
+    </div>
+</body>
+</html>
+
+
